@@ -8,7 +8,9 @@ var bnfParser = require('ebnf-parser');
 var lexParser = require('lex-parser');
 
 exports.main = function (argv) {
-    if(argv.length == 1) return;
+    if (argv.length == 1) {
+        return;
+    }
 
     var args = argv.slice(1);
     var bnf, lex;
@@ -35,7 +37,9 @@ exports.convert = processGrammar;
 
 function processGrammar (rawGrammar, lex) {
     var grammar = bnfParser.parse(rawGrammar);
-    if (lex) grammar.lex = lexParser.parse(lex);
+    if (lex) {
+        grammar.lex = lexParser.parse(lex);
+    }
 
     // trick to reposition `bnf` after `lex` in serialized JSON
     grammar.bnf = grammar.bnf;
@@ -56,6 +60,7 @@ function input (cb) {
     });
 };
 
-if (require.main === module)
+if (require.main === module) {
     exports.main(process.argv.slice(1));
+}
 
