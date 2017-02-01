@@ -1,5 +1,9 @@
 # jison2json
 
+
+[![build status](https://secure.travis-ci.org/GerHobbelt/jison2json.png)](http://travis-ci.org/GerHobbelt/jison2json)
+
+
 [jison](http://jison.org) grammars come in two formats: JSON or a special text format similar to Bison's. This utility converts from the jison's format to JSON. See the [json2jison](https://github.com/zaach/json2jison) for the reverse conversion.
 
 ## install
