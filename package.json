@@ -24,13 +24,14 @@
     "url": "http://zaa.ch"
   },
   "license": "MIT",
-  "bin": "jison2json.js",
+  "bin": "./cli.js",
   "engines": {
     "node": ">=4.0"
   },
   "dependencies": {
     "ebnf-parser": "github:GerHobbelt/ebnf-parser#master",
-    "lex-parser": "github:GerHobbelt/lex-parser#master"
+    "lex-parser": "github:GerHobbelt/lex-parser#master",
+    "nomnom": "github:GerHobbelt/nomnom#master"
   },
   "devDependencies": {
     "chai": "3.5.0",
