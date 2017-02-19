@@ -4,7 +4,7 @@
   "description": "Converts jison grammar definitions to JSON",
   "main": "jison2json.js",
   "scripts": {
-    "test": "node tests.js"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,9 @@
   "dependencies": {
     "ebnf-parser": "github:GerHobbelt/ebnf-parser#master",
     "lex-parser": "github:GerHobbelt/lex-parser#master"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.2.0"
   }
 }

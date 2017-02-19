@@ -6,9 +6,11 @@
 
 [jison](http://jison.org) grammars come in two formats: JSON or a special text format similar to Bison's. This utility converts from the jison's format to JSON. See the [json2jison](https://github.com/zaach/json2jison) for the reverse conversion.
 
+
 ## install
 
     npm install jison2json -g
+
 
 ## usage
 
@@ -24,6 +26,7 @@ Or require it and convert programatically:
     var grammar = "%% foo: bar { return true; };";
 
     var json = jison2json.convert(grammar);
+
 
 ## license
 
