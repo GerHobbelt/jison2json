@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/zaach/jison2json.git"
+    "url": "git://github.com/GerHobbelt/jison2json.git"
   },
   "keywords": [
     "jison",
@@ -35,6 +35,6 @@
   },
   "devDependencies": {
     "chai": "4.1.0",
-    "mocha": "3.4.2"
+    "mocha": "3.5.0"
   }
 }
