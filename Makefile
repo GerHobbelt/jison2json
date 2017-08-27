@@ -6,6 +6,9 @@ prep: npm-install
 npm-install:
 	npm install
 
+npm-update:
+	ncu -a --packageFile=package.json
+
 build:
 
 test:
