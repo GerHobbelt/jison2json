@@ -30,8 +30,8 @@
     "node": ">=4.0"
   },
   "dependencies": {
-    "@gerhobbelt/ebnf-parser": "0.6.0-186.2",
-    "@gerhobbelt/lex-parser": "0.6.0-186",
+    "@gerhobbelt/ebnf-parser": "0.6.0-188",
+    "@gerhobbelt/lex-parser": "0.6.0-188",
     "@gerhobbelt/nomnom": "1.8.4-16"
   },
   "devDependencies": {
