@@ -30,12 +30,12 @@
     "node": ">=4.0"
   },
   "dependencies": {
-    "@gerhobbelt/ebnf-parser": "0.6.0-188",
-    "@gerhobbelt/lex-parser": "0.6.0-188",
-    "@gerhobbelt/nomnom": "1.8.4-17"
+    "@gerhobbelt/ebnf-parser": "0.6.0-190",
+    "@gerhobbelt/lex-parser": "0.6.0-190",
+    "@gerhobbelt/nomnom": "1.8.4-18"
   },
   "devDependencies": {
     "chai": "4.1.2",
-    "mocha": "3.5.0"
+    "mocha": "3.5.3"
   }
 }
