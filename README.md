@@ -32,6 +32,13 @@
     npm install @gerhobbelt/jison2json -g
 
 
+
+## build
+
+To build the library yourself, follow the install & build directions of the [monorepo](https://github.com/GerHobbelt/jison).
+
+
+
 ## usage
 
     # single grammar
